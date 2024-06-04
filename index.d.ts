@@ -1,6 +1,6 @@
 import { CheckOptions as TabbableCheckOptions } from 'tabbable';
 
-declare module 'focus-trap' {
+declare module '@wavemaker/focus-trap' {
   export type FocusTargetValue = HTMLElement | SVGElement | string;
   export type FocusTargetValueOrFalse = FocusTargetValue | false;
 
